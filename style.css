@@ -41,6 +41,20 @@ ul>a {
     color: hsl(0, 0%, 100%);
 }
 
+.sessao2>p {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.botao-start {
+    display: flex;
+    margin: 0 auto;
+    background-color: hsl(176, 68%, 64%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+
+}
+
 footer {
     background-color: hsl(216, 53%, 9%);
 }

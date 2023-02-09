@@ -62,15 +62,29 @@ header {
 }
 
 .botao-start {
-    display: flex;
-    margin: 0 auto;
+    display: block;
     background-color: hsl(176, 68%, 64%);
-    color: hsl(0, 0%, 100%);
     width: 240px;
     border-radius: 25px;
     height: 50px;
     margin: 25px auto;
+}
+
+.botao-start a {
+    color: hsl(0, 0%, 100%);
     text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.sessao3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+}
+
+.sessao3 div {
+    margin: 20px auto;
 }
 
 footer {

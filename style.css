@@ -68,13 +68,15 @@ header {
     border-radius: 25px;
     height: 50px;
     margin: 25px auto;
+    cursor: pointer;
 }
 
-.botao-start a {
+.botao-start p {
     color: hsl(0, 0%, 100%);
     text-align: center;
     text-decoration: none;
     font-size: 15px;
+    font-family: "open sans";
 }
 
 .sessao3 {
@@ -84,7 +86,25 @@ header {
 }
 
 .sessao3 div {
-    margin: 20px auto;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.sessao3 div img {
+    margin: 10px auto;
+}
+
+.sessao3 div h2 {
+    margin: 10px auto;
+    font-family: Open Sans;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.sessao3 div p {
+    color: hsl(0, 0%, 100%);
+    font-family: "open sans";
+    width: 390px;
 }
 
 footer {

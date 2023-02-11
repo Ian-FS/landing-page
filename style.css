@@ -98,6 +98,7 @@ header {
     margin: 10px auto;
     font-family: Open Sans;
     font-weight: 700;
+    font-size: 20px;
     color: hsl(0, 0%, 100%);
 }
 
@@ -105,6 +106,47 @@ header {
     color: hsl(0, 0%, 100%);
     font-family: "open sans";
     width: 390px;
+}
+
+.sessao4 {
+    display: flex;
+    margin: 40px auto;
+    align-items: center;
+
+}
+
+.sessao4 img {
+    margin: 0 40px;
+}
+
+.sessao4 div {
+    margin: 0 40px;
+
+}
+
+.sessao4 h1 {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 40px;
+    color: hsl(0, 0%, 100%);
+    padding-right: 200px;
+    margin-bottom: 30px;
+}
+
+.sessao4 p {
+    margin-bottom: 15px;
+    color: hsl(0, 0%, 100%);
+    font-family: "open sans";
+}
+
+.sessao4 a {
+    color: hsl(176, 68%, 64%);
+    font-family: "open sans";
+    margin-top: 20px;
+}
+
+.sessao4 a img {
+    margin-left: 0px;
 }
 
 footer {

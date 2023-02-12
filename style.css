@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     background-color: hsl(218, 28%, 13%);
     max-width: 1440px;
-    margin: 0 auto;
+    margin: auto;
+    font-size: 1.6rem;
 }
 
 header {
@@ -13,10 +18,16 @@ header {
     padding: 20px;
     align-items: center;
     margin: 10px;
+    max-width: 100%;
 }
 
 .menu {
     display: flex;
+}
+
+.img-fylo {
+    max-width: 176px;
+    width: 100%;
 }
 
 .menu li {
@@ -29,12 +40,13 @@ header {
     font-family: "Raleway";
     font-weight: 700;
     padding: 10px;
+    font-size: 1.6rem;
 }
 
 .sessao1 img {
     display: block;
     max-width: 720px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     padding: 30px;
 }
@@ -42,9 +54,10 @@ header {
 .sessao1 h1 {
     font-family: Open Sans;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 4.0rem;
     text-align: center;
     max-width: 903px;
+    width: 90%;
     margin: 10px auto;
     line-height: normal;
     color: hsl(0, 0%, 100%);
@@ -58,7 +71,9 @@ header {
 .sessao2 p {
     color: hsl(0, 0%, 100%);
     font-family: "open sans";
-    margin: 5px;
+    margin: 0 auto;
+    max-width: 500px;
+    line-height: 2.2rem;
 }
 
 .botao-start {
@@ -75,7 +90,7 @@ header {
     color: hsl(0, 0%, 100%);
     text-align: center;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-family: "open sans";
 }
 
@@ -91,7 +106,7 @@ header {
     display: grid;
     margin: 40px auto;
     text-align: center;
-    align-items: end;
+    align-items: baseline;
 }
 
 .sessao3 div img {
@@ -103,14 +118,17 @@ header {
     margin: 10px auto;
     font-family: Open Sans;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 2.0rem;
     color: hsl(0, 0%, 100%);
 }
 
 .sessao3 div p {
     color: hsl(0, 0%, 100%);
     font-family: "open sans";
-    width: 390px;
+    max-width: 390px;
+    width: 90%;
+    line-height: 2.2rem;
+    margin: auto;
 }
 
 .sessao4 {
@@ -132,7 +150,7 @@ header {
 .sessao4 h1 {
     font-family: Open Sans;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 4.0rem;
     color: hsl(0, 0%, 100%);
     margin-bottom: 30px;
 }
@@ -141,6 +159,7 @@ header {
     margin-bottom: 15px;
     color: hsl(0, 0%, 100%);
     font-family: "open sans";
+    line-height: 2.2rem;
 }
 
 .sessao4 a {
@@ -169,7 +188,7 @@ header {
 .grid-profile {
     display: grid;
     grid-template-columns: 60px 300px;
-    grid-template-rows: 80px 45px;
+    grid-template-rows: 100px 45px;
     padding: 40px 30px 30px 30px;
     background-color: hsl(219, 30%, 18%);
     margin: 20px 20px;
@@ -180,6 +199,7 @@ header {
     text-align: justify;
     color: hsl(0, 0%, 100%);
     font-family: "open sans";
+    line-height: 2.2rem;
 }
 
 .img-profile {
@@ -204,9 +224,122 @@ header {
 .profissao-profile {
     color: hsl(0, 0%, 100%);
     font-family: "open sans";
-    font-size: 10px;
+    font-size: 1.0rem;
+}
+
+.box-early {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 100px auto -50px auto;
+    max-width: 900px;
+    height: 200px;
+    background-color: hsl(217, 28%, 15%);
+    align-items: center;
+    align-content: center;
+    padding: 30px 85px;
+}
+
+.box-early h2 {
+    margin: 10px auto;
+    font-family: Open Sans;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    font-size: 2.0rem;
+}
+
+.box-early p {
+    margin: 10px auto;
+    text-align: center;
+    max-width: 700px;
+    width: 90%;
+    color: hsl(0, 0%, 100%);
+    font-family: "open sans";
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+.box-early div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 10px auto;
+    align-items: center;
+    max-width: 900px;
+    width: 90%;
+}
+
+.box-early div input {
+    margin-right: 20px;
+    margin-left: auto;
+    width: 300px;
+    height: 25px;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.button-early {
+    width: 150px;
+    margin-right: auto;
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(176, 68%, 64%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
 }
 
 footer {
+    max-width: 100%;
+    height: 100px;
     background-color: hsl(216, 53%, 9%);
 }
+
+@media (max-width:1060px) {
+    .sessao3 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 40px auto;
+    }
+
+    .sessao4 {
+        flex-wrap: wrap;
+    }
+
+    .sessao4 div {
+        text-align: center;
+        margin: auto;
+    }
+
+    .stay-image {
+        max-width: 100%;
+
+        margin: auto;
+    }
+}
+
+
+@media(max-width:780px) {
+    .box-early {
+        flex-wrap: nowrap;
+    }
+
+    .box-early div {
+        flex-direction: column;
+    }
+
+    .box-early h2 {
+        margin: 0;
+    }
+
+    .button-early {
+        margin: auto;
+    }
+}
+
+@media(max-width:500px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media(max-width:380px) {}
